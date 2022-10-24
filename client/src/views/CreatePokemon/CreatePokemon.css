@@ -1,0 +1,188 @@
+.fondoCP{
+    background-image: url(../LandingPage/img/pokemon-go-equipo-valor-instinto-y-sabiduria_5469x3240_xtrafondos.com.jpg);
+    padding: 75px 100px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+}
+.fondoCP:before{
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.253);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.colum1 {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-size: 20px;
+    float: left;
+    position: relative;
+    left: 0px;
+    bottom: 50px;
+}
+
+.colum2 {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-size: 20px;
+    float: right;
+    position: relative;
+    right: -160px;
+    bottom: 50px;
+}
+
+.nameCreate {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-size: 20px;
+    float: right;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+
+}
+
+.nameCreate1 {
+    border: 1px solid #ffff00;
+ 
+}
+
+.typesCreate {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-size: 20px;
+    float: right;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.imgCreate {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-size: 20px;
+    float: right;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+
+select {
+    background: transparent;
+    border: none;
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    font-size: 20px;
+}
+.butto {
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid #ffff00;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    float: left ;
+    position: relative;
+    left: 20px;
+    bottom: 120px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+
+}
+.butto:hover {
+	background-color:transparent;
+
+	color: rgb(251, 255, 0);
+}
+
+.tituloCP{
+    font-size: 45px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 50px;
+}
+
+.crear{
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom:150px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid #ffff00;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.crear:hover {
+	background-color:transparent;
+
+	color: rgb(251, 255, 0);
+}
+select{
+    color: #ffffff;
+}
+input{
+    color: #ffffff;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    background-image: url(../LandingPage/img/download.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+}
